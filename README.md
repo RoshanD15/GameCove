@@ -1,6 +1,6 @@
 ## GameCove API
 
-A TypeScript backend for an indie-game marketplace: games catalog, event tracking, and a first-cut recommendation engine (content-based + popularity). Built to learn real backend skills and ship portfolio-grade features.
+A TypeScript backend for an indie-game marketplace: games catalog, event tracking, and a first-cut recommendation engine (content-based + popularity). Built to practice production-grade backend skills: transactional data access, indexing & query design, event tracking pipelines, a hybrid recommendation engine, HTTP API design with Fastify, Dockerized local DB, and room to add auth, Stripe webhooks, tests, and CI
 
 ## Features
 
