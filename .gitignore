@@ -1,0 +1,41 @@
+node_modules
+# Keep environment variables out of version control
+
+# dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# build output
+dist/
+.out/
+.next/
+
+# env & secrets
+.env
+.env.*
+!.env.example
+
+# prisma
+prisma/*.db
+prisma/migrations/**/migration.sql # (keep if you want history; remove this line to track)
+prisma/dev.db
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# docker volumes (if any local exports)
+docker-data/
+
+.env
+
+/generated/prisma
