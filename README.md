@@ -1,8 +1,8 @@
-GameCove API
+## GameCove API
 
 A TypeScript backend for an indie-game marketplace: games catalog, event tracking, and a first-cut recommendation engine (content-based + popularity). Built to learn real backend skills and ship portfolio-grade features.
 
-Features
+## Features
 
 Fastify HTTP API with CORS
 
@@ -27,3 +27,19 @@ Prisma ORM
 PostgreSQL (Docker)
 
 Tooling: ts-node, Prisma Studio
+
+## Author
+Roshan Dayananda – [LinkedIn](https://www.linkedin.com/in/roshan-dayananda/) – [GitHub](https://github.com/RoshanD15)
+
+## Project Setup (for Developers)
+
+```bash
+# Clone the repository
+git clone https://github.com/RoshanD15/weavd.git
+cd weavd
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
