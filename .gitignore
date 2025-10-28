@@ -36,6 +36,6 @@ Thumbs.db
 # docker volumes (if any local exports)
 docker-data/
 
-
+docker-compose.yml
 
 /generated/prisma
